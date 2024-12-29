@@ -1,0 +1,34 @@
+.banking-section {
+  padding: 50px;
+}
+
+.banking-content h1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 31px;
+  color: #000;
+  line-height: 1.4;
+}
+
+.banking-subtitle {
+  color: #B71C1C;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 21px;
+}
+
+.banking-description {
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+.bank-card {
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.bank-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

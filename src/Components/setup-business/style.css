@@ -1,0 +1,68 @@
+.steps-to-setup-container {
+  text-align: center;
+  padding: 40px;
+  background: #f9f9f9;
+}
+
+.steps-to-setup-container .main-title {
+  font-size: 55px;
+  margin-bottom: 16px;
+}
+
+.steps-to-setup-container .subtitle {
+  font-size: 25px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.setup-business-card {
+  width: 318px;
+  height: 350px;
+  position: relative;
+  border: none;
+  background: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setup-business-card .card-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.setup-business-card .card-title {
+  color: white;
+  text-align: left;
+  font-size: 18px;
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  line-height: 1.4;
+  z-index: 1;
+}
+
+.get-in-touch-btn {
+  margin-top: 40px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.get-in-touch-btn:hover {
+  background-color: #333;
+  color: #ffd700;
+}

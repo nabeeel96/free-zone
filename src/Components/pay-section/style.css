@@ -1,0 +1,63 @@
+.ajman-pay-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  background-size: cover;
+  min-height: 300px;
+  padding: 100px 0px 100px 0px;
+}
+
+.ajman-pay-content h1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.ajman-pay-subtitle {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 35px;
+  color: #FCD526;
+}
+
+.ajman-pay-subtitle span {
+  color: #f0b400;
+}
+
+.ajman-pay-description {
+  font-size: 25px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ajman-pay-button {
+  margin-top: 40px;
+  background-color: #FFFFFF;
+  color: #000;
+  border: none;
+  padding: 10px 30px;
+  font-size: 24px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.ajman-pay-button:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+
+.ajman-pay-image {
+  flex: 1;
+  text-align: left;
+}
+
+.ajman-pay-image img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+}

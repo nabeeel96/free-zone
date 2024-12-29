@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.start-wrapper {
+  background-color: #fff;
+  padding: 50px 0px 50px 0px;
+}
+
+.start-now-container {
+  width: 1858px;
+  height: 822px;
+  background: url('../../assets/Mask-Group-50.png') center/cover no-repeat;
+  margin: 31px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.logo {
+  position: absolute;
+  top: 119px;
+  left: 113px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 83px;
+}
+
+.offer-section {
+  flex: 1;
+  max-width: 50%;
+  color: white;
+  z-index: 2;
+}
+
+.offer-section h1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin: 200px 0 10px;
+  text-align: left;
+}
+
+.offer-section-click,
+.pricing {
+  color: white;
+  text-align: left;
+}
+
+.offer-section-click {
+  color: #FCD526;
+  margin-bottom: 20px;
+}
+
+.pricing {
+  margin: 20px 0;
+}
+
+.pay-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1;
+  transform: translateY(15px);
+}
+
+.price {
+  font-size: 102px;
+  color: #ffcc00;
+  line-height: 1;
+  margin: 0;
+}
+
+.after-text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.offer-section ul {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+}
+
+.offer-section ul li {
+  color: white;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.offer-section ul li::before {
+  content: '✔';
+  background-color: #FCD526;
+  color: #FCD526;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 8px;
+}
+
+.form-section {
+  flex: 1;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.woman-image {
+  position: absolute;
+  left: -320px;
+  top: 101px;
+  width: 447px;
+  height: 687px;
+  z-index: 1;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  width: 494px;
+  height: 662px;
+  margin: 46px 0 46px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 72px;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+.phone-input {
+  height: 56px;
+  width: 100%;
+  margin-bottom: 22px;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background: white;
+}
+
+.phone-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.country-code {
+  position: absolute;
+  top: 50%;
+  left: 21px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #333;
+  pointer-events: none;
+}
+
+.flag-selector .ant-select-selector {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  border-radius: 14px;
+  padding: 0 !important;
+}
+
+.flag-option {
+  display: flex;
+  align-items: center;
+}
+
+.flag-option img {
+  width: 20px;
+  height: 14px;
+  margin-right: 8px;
+}
+
+.ant-select-arrow {
+  order: -1;
+  margin-right: 10px;
+}
+
+.ant-input-group-addon {
+  background: white;
+  border: none;
+}
+
+form button {
+  padding: 10px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background: #333;
+}

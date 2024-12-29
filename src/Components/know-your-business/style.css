@@ -1,0 +1,130 @@
+.business-setup-wrapper {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  height: auto;
+  padding: 60px 0;
+}
+
+.business-setup-card {
+  display: flex;
+  max-width: 1720px;
+  height: 625px;
+  width: 100%;
+  background: #fff;
+  border-radius: 44px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 0 auto; 
+}
+
+.left-card {
+  background-image: url('../../assets/mask_group_38.png');
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-card h1 {
+  font-size: 55px;
+  line-height: 1.4;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.left-card .highlight {
+  color: #ffd700;
+}
+
+.left-card p {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.left-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-card ul li {
+  color: #FFFFFF;
+  opacity: 0.63;
+  font-size: 14px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.left-card ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #ffd700;
+}
+
+.right-card {
+  flex: 0.8; 
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 76%; 
+  display: flex;
+  flex-direction: column;
+}
+
+.right-card h2 {
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.form-group label {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.visa-group {
+  display: flex;
+  gap: 10px;
+}
+
+.get-in-touch-button-business {
+  width: 307px;
+  height: 53px;
+  border-radius: 27px !important;
+  margin-top: 35px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+button.get-in-touch-button-business .icon-arrow-business img {
+  margin-left: 10px;
+}
+
+.icon-arrow-business {
+  margin-left: 13px;
+}
